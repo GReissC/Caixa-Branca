@@ -53,4 +53,5 @@ return result; }
 }//fim da class
 
 O uso do Driver JDBC está errado, devido ao fato de que deve-se ser usado "jdbc.Driver", ao invés de "Driver.Manager". Este erro está presente na linha 22 do ReadMe.
+
 Quebra de boa prática ao não usar as exceções presentes no "Catch", devendo pelo menos printá-las em um registro de exceções detectadas. Os Catchs estão presentes nas linhas 26 e 50 do ReadMe.
