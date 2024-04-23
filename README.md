@@ -34,7 +34,7 @@ public boolean verificarUsuario (String login, String senha) {
 String sql = "";
 Connection conn = conectarBD();
 
-//INSTRUÇÃO SOL
+//INSTRUÇÃO SQL
 sql += "select nome from usuarios";
 sql +="where login = " + " ' " + login + " ' ";
 sql += " and senha = " + " ' " + senha + " '; ";
